@@ -22,7 +22,7 @@
 
 * Create a <code>.gitignore</code> file and add node_modules and .env file to it
 
-* Create a <code>main.handlebars</code> fiel in root directory
+* Create a <code>main.handlebars</code> file in root directory
 
 * Create a folder <code>controller</code> and in that create a folder <code>views</code>
 
