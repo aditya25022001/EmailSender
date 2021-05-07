@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <style>
+            body{
+                text-align:left;
+            }
+            li{
+                font-size: 15px;
+            }
+            p{
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Hello {{name}}!</h2>
+        <p>This is a sample email sent using the nodemailer, express and nodejs</p>
+        <p>See everything ( code and details ) 
+            <a href='' rel='noopener noreferer' style='text-decoration:underline; color:purple;' target='_blank'>
+                here
+            </a> 
+        </p>
+        <p><b>Note : </b>if using Gmail as a service allow the less secure apps access to send mails at this 
+            <a rel='noopener noreferer' style='text-decoration:underline; color:purple;' href='https://www.google.com/settings/security/lesssecureapps' target='_blank'>
+                link
+            </a>
+            since Gmail requires other OAuth credentials which needs to be activated in the GCP.
+        </p>
+        <p>Nodemailer docs <a href='https://nodemailer.com/about/' rel='noopener noreferer' style='text-decoration:underline; color:purple;' target='_blank'>here</a></p>
+        <p>Happy Email Sending!</p>
+    </body>
+</html>
