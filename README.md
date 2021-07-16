@@ -5,7 +5,7 @@
 # Pre-requisites
 
 * Postman ( backend client, for testing purpose ) download here : https://www.postman.com/downloads/
-* Node.js ( kinid of obvious ) download here : https://nodejs.org/en/download/
+* Node.js ( kind of obvious ) download here : https://nodejs.org/en/download/
 
 # Steps to follow to create custom email sender
 
